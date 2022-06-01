@@ -19,8 +19,9 @@ public class Main {
         PokeMon yanshi = new PokeMon();
         PokeMon youling = new PokeMon();
         PokeMon loong = new PokeMon();
+
         inban.setShuxing(Illustrated.YIBAN.getShuxing());
-        List<PokeMon> inbanIA = Arrays.asList();
+        List<PokeMon> inbanIA = Arrays.asList(youling);
 
     }
 }
